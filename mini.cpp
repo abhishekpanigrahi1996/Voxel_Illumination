@@ -30,12 +30,12 @@ typedef struct normals{
 	normals(double a,double b,double c):n_x(a),n_y(b),n_z(c){}
 	normals():n_x(0),n_y(0),n_z(0){}
 }normals;
-
+// point structure for queue
 typedef struct point{
 	int x;
 	int y;
 	int z;
-
+	
 	point(int a,int b,int c):x(a),y(b),z(c){}
 	point():x(0),y(0),z(0){}
 }point;
